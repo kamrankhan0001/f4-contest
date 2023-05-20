@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  
+  
+}
+body{
+ justify-content: center;
+  height: 100vh;
+}
+table{
+  
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* .container table{
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+} */
+th, td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
